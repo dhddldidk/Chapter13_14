@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.or.dgit.it.chapter13_14">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyPlusMinusViewActivity" />
+        <activity android:name=".Challenges" />
+        <activity android:name=".Challenge2LogDonut" />
+        <activity android:name=".IntentForResultActivity" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ImplictRunActivity" />
+        <activity android:name=".LifeStyleActivity" />
+        <activity android:name=".SubActivity" />
+        <activity android:name=".StepByStep" />
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".DetailActivity2" />
+        <activity
+            android:name=".TaskManagement"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HandlerMessageActivity" />
+        <activity android:name=".AsyncTaskActivity" />
+        <activity android:name=".ThreadLooperActivity"></activity>
+    </application>
+
+</manifest>

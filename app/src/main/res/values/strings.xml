@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chapter13_14</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

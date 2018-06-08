@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activities">
+        <item>MyPlusMinusViewActivity</item>
+        <item>Challenges</item>
+        <item>Challenge2LogDonut</item>
+        <item>IntentForResultActivity</item>
+        <item>ImplictRunActivity</item>
+        <item>LifeStyleActivity</item>
+        <item>StepByStep</item>
+        <item>TaskManagement</item>
+        <item>HandlerMessageActivity</item>
+        <item>AsyncTaskActivity</item>
+        <item>ThreadLooperActivity</item>
+    </string-array>
+    <string-array name="titles">
+        <item>사용자 뷰</item>
+        <item>도전 과제1 전화걸기</item>
+        <item>도전 과제2 로그도넛</item>
+        <item>인텐트를 이용한 컴포넌트 실행</item>
+        <item>암시적 Intent</item>
+        <item>LifeStyleActivity</item>
+        <item>액티비티생명주기</item>
+        <item>TaskManagement</item>
+        <item>스레드와 핸들러</item>
+        <item>AsyncTask</item>
+        <item>Looper를 이용한 스레드간 연동</item>
+    </string-array>
+</resources>
